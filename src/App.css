@@ -11,11 +11,47 @@ body {
 .header {
 	display: flex;
 	align-items: center;
+	height: 65px;
+	background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+	color: white;
+	padding: 20px;
+}
+
+.header--image {
+	height: 100%;
+	margin-right: 6px;
+}
+
+.header--title {
+	font-size: 1.25rem;
+	margin-right: auto;
+}
+
+.header--project {
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+
+/*  
+
+
+VS MÓJ KOD. 
+
+ZROBIĆ ANALIZE
+
+
+
+*/
+
+/* 
+.header {
+	display: flex;
+	align-items: center;
 	padding: 10px;
 	background-image: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
 
-.text {
+.header--project {
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 500;
@@ -24,9 +60,10 @@ body {
 	text-align: right;
 	color: #ffffff;
 	margin-left: auto;
+	padding: 30px;
 }
 
-.title {
+.header--title {
 	font-family: Karla;
 	font-size: 21px;
 	font-weight: 700;
@@ -36,9 +73,10 @@ body {
 	color: #ffffff;
 }
 
-.troll-face {
+.header--image {
+	height: 100%;
 	width: 80px;
 	top: 19px;
 	left: 20px;
 	padding: 20px;
-}
+} */
