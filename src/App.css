@@ -32,51 +32,37 @@ body {
 	font-weight: 500;
 }
 
-/*  
-
-
-VS MÓJ KOD. 
-
-ZROBIĆ ANALIZE
-
-
-
-*/
-
-/* 
-.header {
+.form {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	padding: 10px;
-	background-image: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+	background-color: #165e8f;
+	height: 500px;
 }
 
-.header--project {
-	font-family: 'Inter', sans-serif;
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 15px;
-	letter-spacing: 0em;
-	text-align: right;
-	color: #ffffff;
-	margin-left: auto;
-	padding: 30px;
+.first-input {
+	width: 230px;
+	height: 35px;
+	top: 101px;
+	left: 36px;
+	border-radius: 5px;
+	border: 1px solid #d5d4d8;
 }
 
-.header--title {
-	font-family: Karla;
-	font-size: 21px;
-	font-weight: 700;
-	line-height: 24px;
-	letter-spacing: -0.1em;
-	text-align: left;
-	color: #ffffff;
+.second-input {
+	width: 230px;
+	height: 35px;
+	top: 101px;
+	left: 283px;
+	border-radius: 5px;
+	border: 1px solid #d5d4d8;
 }
 
-.header--image {
-	height: 100%;
-	width: 80px;
-	top: 19px;
-	left: 20px;
-	padding: 20px;
-} */
+.button {
+	width: 477px;
+	height: 40px;
+	top: 151px;
+	left: 36px;
+	border-radius: 5px;
+	background-image: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+}
