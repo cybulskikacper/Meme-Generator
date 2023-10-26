@@ -2,12 +2,42 @@ import React from 'react'
 
 function Meme() {
 	return (
-		<div className="form">
-			<input type="text" value="Shut up" className="first-input" />
-			<input type="text" value="and take my money" className="second-inp" />
+		<main>
+		
 
-			<button className="button">Get a new meme image 🖼</button>
-		</div>
+			<form className="form">
+
+
+				<input
+				
+					type="text"
+					className="form-input"
+					placeholder='Top Text'
+
+				
+				/> 
+				<input
+				
+				type="text"
+				className="form-input"
+				placeholder='Bottom Text'
+
+				/>
+	<button className='form--button'
+	
+	
+	
+	>
+		    Get a new meme image 🖼
+
+	</button>
+
+
+			</form>
+
+
+
+		</main>
 	)
 }
 
