@@ -1,13 +1,8 @@
-# React + Vite
+ # React + Vite
 
 # Meme Generator in React
 
-## [Live demo]()
-
-
-### Screenshot
-
-<img width="797" alt="ss" src="">
+## [Live demo](https://memegeneratorinreactjs.netlify.app/)
 
 
 ### Built with 
