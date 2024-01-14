@@ -2,7 +2,7 @@
 
 # Meme Generator in React
 
-## [Live demo](https://movie-search-app-in-reactjs.netlify.app/)
+## [Live demo](https://memegeneratorinreactjs.netlify.app/)
 
 
 
